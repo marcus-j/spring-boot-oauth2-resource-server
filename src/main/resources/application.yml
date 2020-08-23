@@ -1,0 +1,7 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          # add your Cognito issuer endpoint here, the following does not exist ;)
+          issuer-uri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_v76Iiyfkw
